@@ -1,0 +1,48 @@
+@media screen and (max-width:1200px){
+    .navigation{
+        flex-direction:column;
+        margin-bottom: 50px;
+        font-size: 15px;
+        padding-bottom: 27px;
+    }
+    hr{
+        color: solid 1px;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+     
+    }
+    .form-control{
+     font-size: 15px;
+    margin-left: 130px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 12px;
+    }
+    .btn{
+        font-size: 13px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .content-right{
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+        font-size: 12px;
+    }
+   .content{
+    display: none;
+   }
+   .para{
+    margin-top: 60px;
+    font-size: 10px;
+   }
+   .contact-content{
+   background-color: white;
+   }
+   .row{
+flex-direction: column;
+   }
+}

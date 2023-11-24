@@ -1,0 +1,31 @@
+.contact-content {
+    height: 400px;
+    height: 80vh;
+    display: block;
+     
+    position: relative;
+ font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+.contact-content::after {
+    content: "";
+   
+    position: absolute;
+    width:100%;
+    top: 0;
+    height: inherit;
+    opacity: 0.25;
+   z-index: -1;
+}
+.form-box input{
+    border: 1px solid purple;
+
+}
+.btn:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+.form-box textarea{
+    border: 1px solid purple;
+}
